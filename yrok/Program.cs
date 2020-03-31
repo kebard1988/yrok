@@ -12,6 +12,10 @@ namespace yrok
             Console.ReadKey();
         }
 
-        
+        static int Free(int feet)
+        {
+            int inches = feet * 12;
+            return inches;
+        }
     }
 }
